@@ -1,6 +1,6 @@
 //your JS code here. If required.
 document.getElementById('change_button').addEventListener('click', changeColor);
-document.getElementById('reset').addEventListener('click', resetColors);
+document.getElementById('reset_button').addEventListener('click', resetColors);
 
 function changeColor() {
     const blockId = document.getElementById('block_id').value;
